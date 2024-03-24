@@ -1,0 +1,22 @@
+/********************  Preloader Demo-6 *******************/
+.snippet-sec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.loader6,.loader6:after,.loader6:before{width:150px;height:150px;border-radius:50%}
+.loader6 .loader-inner,.loader6:after,.loader6:before{top:50%;transform:translate(-50%,-50%);position:absolute}
+.loader6{margin:0 auto;position:relative;animation:loading-6 .8s infinite}
+.loader6:after,.loader6:before{content:"";margin-left:50%;border:10px solid transparent;border-left:10px solid #ffffff}
+.loader6:after{border:10px solid transparent;border-right:10px solid #ffffff;position:absolute}
+.loader6 .loader-inner{display:block;width:120px;height:120px;border-radius:50%;border:6px solid #000000;margin:0 auto 0 50%}
+.loader6 .loader-inner:after,.loader6 .loader-inner:before{content:"";width:80px;height:80px;border-radius:50%;border:10px solid transparent;border-left:10px solid #DD0063;margin-left:50%;position:absolute;top:50%;transform:translate(-50%,-50%)}
+.loader6 .loader-inner:after{border:10px solid transparent;border-right:10px solid #DD0063}
+@-webkit-keyframes loading-6{
+    0%{transform:rotate(180deg)}
+    100%{transform:rotate(360deg)}
+}
+@keyframes loading-6{
+    0%{transform:rotate(180deg)}
+    100%{transform:rotate(360deg)}
+}

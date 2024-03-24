@@ -1,0 +1,62 @@
+
+.login-block{
+padding : 50px 0;
+}
+.banner-sec{ background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0; }
+.login-back{background:#fff; border-radius: 10px; box-shadow:15px 20px 0px rgba(0,0,0,0.1);}
+.login-back{
+    background: #67f56e;  
+    background: -webkit-linear-gradient(to bottom, #59db5f, #68e61f);  
+    background: linear-gradient(to bottom, #4fd656, #7fec40);
+}
+.carousel-inner{border-radius:0 10px 10px 0;}
+.img-login{
+    width: 100% !important;
+    max-width: 1200px !important;
+    height: 598px !important;
+}
+.carousel-caption{text-align:left; left:5%;}
+.login-sec{padding: 50px 30px; position:relative;}
+.login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:15px; text-align:center;}
+.login-sec .copy-text a{color:blue;}
+.login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #FFFFFF;}
+.login-sec h2:after{content:" "; width:100px; height:5px; background:#FFFFFF; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.btn-login{background: #DE6262 !important; color:#fff !important; font-weight:600 !important;}
+.banner-text{width:70%; position:absolute; bottom:40px; padding-left:20px;}
+.banner-text h2{color:#fff; font-weight:600;}
+.banner-text h2:after{content:" "; width:100px; height:5px; background:#FFF; display:block; margin-top:20px; border-radius:3px;}
+.banner-text p{color:#fff;}
+.message-error{color: red; text-align: center; margin: 10px;font-size: 20px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+#input-otp{display: none;}
+.invalid-feedback{
+    font-size: 15px !important;
+    font-weight: 400;
+    color: red;
+    margin-left: 40px;
+}
+.btn-register{
+    display: block !important;
+    background: #DE6262 !important; 
+    color:#fff !important; 
+    font-weight:600 !important;
+    margin: 0 auto;
+}
+.icon-for{
+    width:20%;
+    margin-bottom:10%;
+}
+.btnForget{
+    background: #c0392b;
+    border:none;
+}
+.forget-password .dropdown{
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.forget-password .dropdown button{
+    width: 100%;
+}
+.forget-password .dropdown ul{
+    width: 100%;
+}
